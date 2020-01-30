@@ -8,7 +8,7 @@ class CleverTap
   end
 
   class Client
-    DOMAIN = 'https://api.clevertap.com'.freeze
+    DOMAIN = 'https://sg1.api.clevertap.com'.freeze
     API_VERSION = 1
     HTTP_PATH = 'upload'.freeze
     DEFAULT_SUCCESS = proc { |r| r.to_s }
